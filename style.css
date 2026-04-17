@@ -203,3 +203,95 @@ button:hover {
 .contact-item a:hover {
     color: purple;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+
+    .hero {
+        padding: 40px;
+    }
+
+    .left h1 {
+        font-size: 36px;
+    }
+
+    .right img {
+        width: 250px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 28px;
+    }
+
+    .right img {
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+
+    .left h1 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .right img {
+        width: 150px;
+    }
+}
